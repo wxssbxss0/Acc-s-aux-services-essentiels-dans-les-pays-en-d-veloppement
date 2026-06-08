@@ -49,6 +49,15 @@ The project aims to:
 4. Compare possible design choices.
 5. Produce a final recommendation suitable for a call-for-proposals response.
 
+
+
+## Action Items
+
+- Identify households above the hydraulic level of the reservoir outlet.
+- Estimate whether gravity-fed distribution is sufficient.
+- Add a booster pump only for high-altitude demand points if necessary.
+- Compare pump installation cost and operating cost against the 220 k€ project budget.
+
 ## Repository Structure
 
 ```text
