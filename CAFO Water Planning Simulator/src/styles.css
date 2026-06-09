@@ -1,0 +1,97 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-water: var(--water);
+  --color-deep: var(--deep);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-panel: var(--panel);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+:root {
+  --radius: 0.5rem;
+  --background: oklch(0.985 0.003 240);
+  --foreground: oklch(0.205 0.02 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.205 0.02 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.205 0.02 250);
+  --primary: oklch(0.38 0.12 250);          /* deep blue #0B4F8C */
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.96 0.01 240);
+  --secondary-foreground: oklch(0.3 0.04 250);
+  --muted: oklch(0.96 0.008 240);
+  --muted-foreground: oklch(0.5 0.02 250);
+  --accent: oklch(0.94 0.03 230);
+  --accent-foreground: oklch(0.3 0.06 250);
+  --destructive: oklch(0.58 0.21 25);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.9 0.01 240);
+  --input: oklch(0.92 0.01 240);
+  --ring: oklch(0.6 0.12 235);
+
+  --water: oklch(0.66 0.14 235);            /* #2D9CDB water blue */
+  --deep: oklch(0.38 0.12 250);             /* #0B4F8C */
+  --success: oklch(0.62 0.14 155);
+  --warning: oklch(0.75 0.15 75);
+  --panel: oklch(0.99 0.003 240);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-feature-settings: "cv02", "cv11";
+  }
+}
+
+@layer utilities {
+  .num { font-variant-numeric: tabular-nums; }
+  .grid-bg {
+    background-image:
+      linear-gradient(to right, oklch(0.9 0.01 240 / 0.6) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(0.9 0.01 240 / 0.6) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+}
+
+/* Print stylesheet for "Export PDF Summary" — use browser print to PDF */
+@media print {
+  @page { size: A4; margin: 14mm; }
+  body { background: white !important; }
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  .print-page-break { page-break-after: always; }
+}
+.print-only { display: none; }
+

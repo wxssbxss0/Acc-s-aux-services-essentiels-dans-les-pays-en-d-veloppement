@@ -1,0 +1,3824 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43329439841342,
+          10.97925197483575
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "type": "Menage",
+        "altitude_m": 376.0,
+        "population": 6,
+        "demand_l_day": 78.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43057887839636,
+          10.98496333682762
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "type": "Menage",
+        "altitude_m": 357.0,
+        "population": 10,
+        "demand_l_day": 180.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43105973971312,
+          10.9837680873326
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "type": "Menage",
+        "altitude_m": 361.0,
+        "population": 7,
+        "demand_l_day": 140.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43349810959814,
+          10.97813034518942
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "type": "MenageI",
+        "altitude_m": 378.0,
+        "population": 6,
+        "demand_l_day": 108.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43147794411438,
+          10.97988922443061
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "type": "Menage",
+        "altitude_m": 370.0,
+        "population": 5,
+        "demand_l_day": 95.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42962415305564,
+          10.98152054264557
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "type": "Menage",
+        "altitude_m": 363.0,
+        "population": 5,
+        "demand_l_day": 75.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43223360389873,
+          10.98165679557314
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "type": "Menage",
+        "altitude_m": 368.0,
+        "population": 4,
+        "demand_l_day": 76.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43346749053032,
+          10.98139749063916
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "type": "Menage",
+        "altitude_m": 370.0,
+        "population": 8,
+        "demand_l_day": 144.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43068622452621,
+          10.98135673213928
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "type": "Menage",
+        "altitude_m": 366.0,
+        "population": 7,
+        "demand_l_day": 91.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4302604069808,
+          10.98164375411877
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "type": "Menage",
+        "altitude_m": 364.0,
+        "population": 7,
+        "demand_l_day": 91.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42930676070844,
+          10.98138468287837
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "type": "MenageI",
+        "altitude_m": 362.0,
+        "population": 3,
+        "demand_l_day": 39.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43223110245911,
+          10.97999838498073
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "type": "Menage",
+        "altitude_m": 372.0,
+        "population": 10,
+        "demand_l_day": 200.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42968989069825,
+          10.98205015850667
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "type": "Menage",
+        "altitude_m": 362.0,
+        "population": 8,
+        "demand_l_day": 144.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43343015878945,
+          10.98084063426667
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "type": "Menage",
+        "altitude_m": 372.0,
+        "population": 5,
+        "demand_l_day": 105.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43184666516287,
+          10.98180157843458
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "type": "Menage",
+        "altitude_m": 367.0,
+        "population": 5,
+        "demand_l_day": 60.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42863899107435,
+          10.98232165550295
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 5,
+        "demand_l_day": 85.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43494158304006,
+          10.98097990578223
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "type": "Menage",
+        "altitude_m": 371.0,
+        "population": 5,
+        "demand_l_day": 85.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43343816786244,
+          10.98159547535619
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "type": "Menage",
+        "altitude_m": 369.0,
+        "population": 6,
+        "demand_l_day": 114.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43183783035308,
+          10.98175451476056
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "type": "Menage",
+        "altitude_m": 367.0,
+        "population": 6,
+        "demand_l_day": 126.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42968190294099,
+          10.98326216486599
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "type": "Menage",
+        "altitude_m": 360.0,
+        "population": 5,
+        "demand_l_day": 110.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4344382731905,
+          10.98263804869529
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "type": "Menage",
+        "altitude_m": 366.0,
+        "population": 7,
+        "demand_l_day": 126.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43541203386164,
+          10.97920192394206
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "type": "Menage",
+        "altitude_m": 375.0,
+        "population": 4,
+        "demand_l_day": 72.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4324620963365,
+          10.98363959510209
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "type": "Menage",
+        "altitude_m": 363.0,
+        "population": 5,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43231483859016,
+          10.98134290492337
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "type": "Menage",
+        "altitude_m": 369.0,
+        "population": 6,
+        "demand_l_day": 84.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43261044880554,
+          10.98148229682996
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "type": "Menage",
+        "altitude_m": 369.0,
+        "population": 6,
+        "demand_l_day": 102.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43152646905528,
+          10.97948720310486
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "type": "Menage",
+        "altitude_m": 371.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43060283172097,
+          10.98114074159708
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "type": "MenageI",
+        "altitude_m": 366.0,
+        "population": 5,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43170154976905,
+          10.98220450667088
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "type": "Menage",
+        "altitude_m": 366.0,
+        "population": 6,
+        "demand_l_day": 114.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43249548934325,
+          10.98204693520226
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "type": "Menage",
+        "altitude_m": 367.0,
+        "population": 6,
+        "demand_l_day": 108.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43223704960719,
+          10.98084597305941
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "type": "Menage",
+        "altitude_m": 370.0,
+        "population": 3,
+        "demand_l_day": 51.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43137387222976,
+          10.98423969947021
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "type": "Menage",
+        "altitude_m": 360.0,
+        "population": 7,
+        "demand_l_day": 91.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42972768513968,
+          10.97876956103816
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "type": "Menage",
+        "altitude_m": 367.0,
+        "population": 5,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43079156225138,
+          10.98379656437056
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "type": "Menage",
+        "altitude_m": 360.0,
+        "population": 4,
+        "demand_l_day": 92.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43150105829009,
+          10.98077141283103
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "type": "Menage",
+        "altitude_m": 369.0,
+        "population": 9,
+        "demand_l_day": 117.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43146414472614,
+          10.98299258303072
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "type": "Menage",
+        "altitude_m": 363.0,
+        "population": 10,
+        "demand_l_day": 150.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43355257624089,
+          10.98226289670388
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "type": "Menage",
+        "altitude_m": 367.0,
+        "population": 8,
+        "demand_l_day": 168.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42867078224575,
+          10.98377494601006
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "type": "Menage",
+        "altitude_m": 356.0,
+        "population": 5,
+        "demand_l_day": 110.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4344993115692,
+          10.98092739882838
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "type": "Menage",
+        "altitude_m": 372.0,
+        "population": 4,
+        "demand_l_day": 88.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43076366417883,
+          10.98251640661676
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "type": "MenageI",
+        "altitude_m": 363.0,
+        "population": 7,
+        "demand_l_day": 98.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44602438974798,
+          10.99139442456864
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 102.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44440999860436,
+          10.98917537353979
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 76.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44771639889979,
+          10.99241539684241
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 138.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44247866098579,
+          10.99210575653106
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "type": "Menage",
+        "altitude_m": 351.0,
+        "population": 3,
+        "demand_l_day": 57.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44260027910892,
+          10.9910905946698
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 9,
+        "demand_l_day": 198.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4476704085163,
+          10.99140187682933
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44441793116987,
+          10.99287250956808
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44223077953025,
+          10.99222006811208
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "type": "Menage",
+        "altitude_m": 352.0,
+        "population": 5,
+        "demand_l_day": 70.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44374080778272,
+          10.9916720107959
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 96.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44089217359898,
+          10.98860107421428
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 126.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44192775143742,
+          10.99260109562857
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 5,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44170690218341,
+          10.99595790993303
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "type": "Menage",
+        "altitude_m": 355.0,
+        "population": 10,
+        "demand_l_day": 160.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44309813417475,
+          10.99274657265393
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44401167507533,
+          10.9948157760636
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 9,
+        "demand_l_day": 144.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44700035060255,
+          10.99077893313859
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 144.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44244762824082,
+          10.98963748619842
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 96.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44437752614719,
+          10.9900776481568
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 9,
+        "demand_l_day": 135.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44367345631935,
+          10.99114658106366
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "type": "MenageI",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 60.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44404092468954,
+          10.99125304859309
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 95.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44433693144844,
+          10.98748192051227
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 3,
+        "demand_l_day": 42.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44323635604934,
+          10.99268916194117
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 75.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44436274992295,
+          10.99387411675235
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 96.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44842456744422,
+          10.99412595754447
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 95.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44427072984078,
+          10.99205308283738
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 120.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44258930175332,
+          10.99122164828989
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4482703355512,
+          10.99063039873418
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 75.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44120101871307,
+          10.99410794659744
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "type": "Menage",
+        "altitude_m": 355.0,
+        "population": 6,
+        "demand_l_day": 102.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44296707106045,
+          10.99185022939355
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 76.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44519607503611,
+          10.99000278543766
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 112.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44468371331708,
+          10.99094738046254
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 44.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43737382362212,
+          10.99870399223374
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "type": "Menage",
+        "altitude_m": 364.0,
+        "population": 10,
+        "demand_l_day": 150.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43431767562809,
+          10.99844625227464
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "type": "Menage",
+        "altitude_m": 368.0,
+        "population": 7,
+        "demand_l_day": 147.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43677999968198,
+          10.99837118862423
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "type": "Menage",
+        "altitude_m": 365.0,
+        "population": 5,
+        "demand_l_day": 75.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43513612640319,
+          11.00035116645008
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "type": "Menage",
+        "altitude_m": 364.0,
+        "population": 3,
+        "demand_l_day": 57.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43428078549045,
+          10.99873454612296
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "type": "Menage",
+        "altitude_m": 368.0,
+        "population": 8,
+        "demand_l_day": 120.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43650504281384,
+          11.00372851442711
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "type": "Menage",
+        "altitude_m": 356.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44089714967718,
+          11.00080125914049
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "type": "Menage",
+        "altitude_m": 355.0,
+        "population": 7,
+        "demand_l_day": 126.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43443511568128,
+          10.99815113642784
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "type": "Menage",
+        "altitude_m": 369.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43783875443825,
+          11.00025311303415
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "type": "Menage",
+        "altitude_m": 361.0,
+        "population": 4,
+        "demand_l_day": 60.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43778241163635,
+          10.99917357266807
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "type": "Menage",
+        "altitude_m": 362.0,
+        "population": 6,
+        "demand_l_day": 108.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43654839360985,
+          11.00143180391899
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "type": "Menage",
+        "altitude_m": 360.0,
+        "population": 4,
+        "demand_l_day": 64.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43818346392769,
+          11.00119674353328
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 8,
+        "demand_l_day": 120.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43987326361172,
+          11.00313808677069
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 7,
+        "demand_l_day": 105.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43791596538581,
+          10.99846173005535
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "type": "Menage",
+        "altitude_m": 363.0,
+        "population": 5,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43769320906308,
+          11.00186565027921
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 4,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43862162836726,
+          10.99886624382835
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "type": "Menage",
+        "altitude_m": 361.0,
+        "population": 5,
+        "demand_l_day": 70.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43718013742443,
+          10.99751102733302
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "type": "Menage",
+        "altitude_m": 365.0,
+        "population": 5,
+        "demand_l_day": 85.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43976888441778,
+          11.00084045812399
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "type": "Menage",
+        "altitude_m": 357.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43591740134794,
+          10.99595077325595
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "type": "Menage",
+        "altitude_m": 368.0,
+        "population": 7,
+        "demand_l_day": 133.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43974794080402,
+          10.99973245744025
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 8,
+        "demand_l_day": 136.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43814872485492,
+          11.00159548051704
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 6,
+        "demand_l_day": 114.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43631182249014,
+          10.99860807908912
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "type": "Menage",
+        "altitude_m": 366.0,
+        "population": 4,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43797660203313,
+          11.00163164211419
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44023995996023,
+          10.99940893443375
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "type": "Menage",
+        "altitude_m": 357.0,
+        "population": 7,
+        "demand_l_day": 133.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43666258011374,
+          10.99852648494369
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "type": "Menage",
+        "altitude_m": 365.0,
+        "population": 6,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44045867093914,
+          10.99814578004417
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 7,
+        "demand_l_day": 140.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43798883048386,
+          10.99896157321647
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "type": "Menage",
+        "altitude_m": 362.0,
+        "population": 6,
+        "demand_l_day": 84.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43611437262321,
+          10.99760086801049
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "type": "Menage",
+        "altitude_m": 367.0,
+        "population": 6,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43816794742469,
+          10.99832611683187
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "type": "Menage",
+        "altitude_m": 363.0,
+        "population": 6,
+        "demand_l_day": 114.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42542261545198,
+          11.00192026619324
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 3,
+        "demand_l_day": 39.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42209807548389,
+          11.00008895282899
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 64.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42454548496083,
+          10.99986637598648
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 3,
+        "demand_l_day": 57.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4220566879401,
+          10.99951768371199
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 7,
+        "demand_l_day": 112.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42535156910058,
+          11.00064357679203
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "type": "Menage",
+        "altitude_m": 351.0,
+        "population": 5,
+        "demand_l_day": 100.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4258006739923,
+          11.00132970658036
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "type": "Menage",
+        "altitude_m": 351.0,
+        "population": 6,
+        "demand_l_day": 84.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42014178145095,
+          11.00318990055754
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 9,
+        "demand_l_day": 198.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42166474024996,
+          11.00200059840028
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 75.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4215038595449,
+          11.0032536735566
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 108.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42030113825371,
+          11.00111412202494
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 7,
+        "demand_l_day": 105.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42138226995492,
+          10.99989236708798
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42001254682385,
+          11.00131436011864
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 52.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42276785888566,
+          11.00409559050731
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 70.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42288059470769,
+          11.00082316949203
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42060993970116,
+          11.00180502290109
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 9,
+        "demand_l_day": 126.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.41988641685981,
+          11.00194111347562
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 152.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42200278727315,
+          11.00122463251648
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 7,
+        "demand_l_day": 91.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42270629664889,
+          11.00179608913209
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 152.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42217587130586,
+          11.00156868174093
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 176.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42300318897033,
+          11.0030252430893
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 110.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42434327016276,
+          10.99865428790823
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 160.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42393037835807,
+          11.00271883100275
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42525464852904,
+          11.00183474112672
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 144.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42371399087628,
+          11.00107086005066
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 176.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42337171552841,
+          11.00442468870768
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "type": "MenageI",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 95.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42291314608164,
+          11.00358535695501
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 84.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42121769470154,
+          11.00294551270879
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42415416620454,
+          11.00017471121079
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 114.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42465258133279,
+          11.00066511570495
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 176.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42319868044886,
+          10.99976377820465
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 8,
+        "demand_l_day": 128.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42145849801524,
+          11.00011721929015
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 3,
+        "demand_l_day": 60.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43436965006394,
+          10.98618847362859
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "type": "Menage",
+        "altitude_m": 356.0,
+        "population": 6,
+        "demand_l_day": 102.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43007304427451,
+          10.98951887111127
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 6,
+        "demand_l_day": 78.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43553530232279,
+          10.98681171407542
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 5,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43394571712937,
+          10.98539479972697
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 4,
+        "demand_l_day": 68.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4342649264245,
+          10.98555815638938
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 5,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43696589966085,
+          10.98499640893247
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 9,
+        "demand_l_day": 180.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43296579143827,
+          10.98642022167146
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "type": "Menage",
+        "altitude_m": 355.0,
+        "population": 5,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43310339354722,
+          10.98610015482958
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "type": "Menage",
+        "altitude_m": 356.0,
+        "population": 6,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43712449954409,
+          10.98676759819725
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43513422390373,
+          10.98308181980863
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "type": "Menage",
+        "altitude_m": 365.0,
+        "population": 6,
+        "demand_l_day": 108.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43457972790514,
+          10.98701872859362
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 10,
+        "demand_l_day": 170.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43663503309601,
+          10.98462496838926
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 10,
+        "demand_l_day": 190.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43550139877512,
+          10.98792626823877
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 5,
+        "demand_l_day": 85.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43430888338453,
+          10.98552395609359
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "type": "Menage",
+        "altitude_m": 358.0,
+        "population": 6,
+        "demand_l_day": 96.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4377814932471,
+          10.98582614165423
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 5,
+        "demand_l_day": 95.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43628451579706,
+          10.98814643235423
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 5,
+        "demand_l_day": 70.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43438053154597,
+          10.99162681185114
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "type": "Menage",
+        "altitude_m": 361.0,
+        "population": 3,
+        "demand_l_day": 42.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43525398859558,
+          10.98725574965057
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 7,
+        "demand_l_day": 105.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43419497461162,
+          10.98842284952916
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 6,
+        "demand_l_day": 108.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43394551123268,
+          10.98590011233666
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "type": "Menage",
+        "altitude_m": 357.0,
+        "population": 4,
+        "demand_l_day": 72.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43501928755477,
+          10.98521508780206
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 5,
+        "demand_l_day": 95.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43434120960754,
+          10.98527944106093
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 9,
+        "demand_l_day": 135.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43514099498665,
+          10.98668344717493
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 5,
+        "demand_l_day": 95.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43152156673966,
+          10.98343186565307
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "type": "Menage",
+        "altitude_m": 362.0,
+        "population": 4,
+        "demand_l_day": 52.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43329235868062,
+          10.98524200073187
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 6,
+        "demand_l_day": 120.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43483500733348,
+          10.98457616667983
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "type": "Menage",
+        "altitude_m": 361.0,
+        "population": 10,
+        "demand_l_day": 190.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43381243346213,
+          10.9880617961086
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 5,
+        "demand_l_day": 80.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43547651640756,
+          10.9885498941998
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 7,
+        "demand_l_day": 112.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43395209794702,
+          10.99076372733477
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 7,
+        "demand_l_day": 98.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43300614828814,
+          10.98356325760036
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "type": "Menage",
+        "altitude_m": 363.0,
+        "population": 5,
+        "demand_l_day": 90.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43430090819249,
+          10.98780172688548
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 7,
+        "demand_l_day": 112.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43165676319295,
+          11.00153658507698
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "type": "Menage",
+        "altitude_m": 360.0,
+        "population": 6,
+        "demand_l_day": 120.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42529339770613,
+          10.97959106888803
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "type": "Menage",
+        "altitude_m": 353.0,
+        "population": 7,
+        "demand_l_day": 126.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4398652219013,
+          10.99847268491344
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "type": "Menage",
+        "altitude_m": 359.0,
+        "population": 7,
+        "demand_l_day": 119.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43700212057053,
+          10.98710355432113
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "type": "Menage",
+        "altitude_m": 352.0,
+        "population": 6,
+        "demand_l_day": 108.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44012749248673,
+          10.98594656602713
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 4,
+        "demand_l_day": 84.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43378259068214,
+          10.98699075949683
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "type": "Menage",
+        "altitude_m": 354.0,
+        "population": 8,
+        "demand_l_day": 128.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44229567204903,
+          10.99767856240711
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "type": "MenageI",
+        "altitude_m": 354.0,
+        "population": 5,
+        "demand_l_day": 75.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44606212889662,
+          10.99838710679924
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 5,
+        "demand_l_day": 70.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42133599322289,
+          10.99374041790534
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 3,
+        "demand_l_day": 66.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44720667346413,
+          10.9976987309442
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "type": "Menage",
+        "altitude_m": 350.0,
+        "population": 6,
+        "demand_l_day": 126.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4329,
+          10.9871
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "type": "Autre",
+        "altitude_m": 353.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4321,
+          10.9878
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "type": "Autre",
+        "altitude_m": 353.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4441,
+          10.9951
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "type": "Autre",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4252,
+          11.0024
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "type": "Autre",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4318,
+          10.9868
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "type": "Autre",
+        "altitude_m": 353.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4415,
+          10.9952
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "type": "Autre",
+        "altitude_m": 357.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43403561239972,
+          10.98558168826827
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "type": "Puits ouvert",
+        "altitude_m": 358.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42480433340123,
+          11.00068440461706
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43723474338346,
+          10.99825513750752
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "type": "Puits ouvert",
+        "altitude_m": 364.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44308094618607,
+          10.9925657549882
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43173615559224,
+          10.98008949619362
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "type": "Puits ouvert",
+        "altitude_m": 371.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42889578567629,
+          10.98194362167705
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "type": "Puits ouvert",
+        "altitude_m": 361.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44751774179367,
+          10.99179116460961
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4380595931967,
+          11.00174238807985
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "type": "Puits ouvert",
+        "altitude_m": 358.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44378426971132,
+          10.98981369979761
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44663440118038,
+          10.9980429188717
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42066726469823,
+          11.00219553796794
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42221775130873,
+          11.00053250822281
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43409242677938,
+          10.98144078908524
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "type": "Puits ouvert",
+        "altitude_m": 370.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": false,
+        "pump_required": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43760608976755,
+          10.98587753958692
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "type": "Puits ouvert",
+        "altitude_m": 355.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43280189125583,
+          10.99063647009906
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "type": "Puits ouvert",
+        "altitude_m": 358.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43396529327919,
+          10.9994439372705
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "type": "Puits ouvert",
+        "altitude_m": 366.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43165262938478,
+          10.98302683761752
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "type": "Puits ouvert",
+        "altitude_m": 364.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43489666833984,
+          10.98760630602795
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "type": "Puits ouvert",
+        "altitude_m": 353.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42133599322289,
+          10.99374041790534
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44074450250204,
+          10.99859965547319
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "type": "Puits ouvert",
+        "altitude_m": 357.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42319725756482,
+          11.00356994205242
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "type": "Puits ouvert",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.43349810959814,
+          10.9837
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "type": "Pompe a main",
+        "altitude_m": 362.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.44427404602965,
+          10.99065103108616
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "type": "Pompe a main",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.42095354602965,
+          11.00194111347562
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "type": "Pompe a main",
+        "altitude_m": 350.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.4358,
+          10.995
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "type": "Reservoir",
+        "altitude_m": 368.0,
+        "population": 0,
+        "demand_l_day": 0.0,
+        "gravity_possible": true,
+        "pump_required": false
+      }
+    }
+  ]
+}

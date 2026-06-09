@@ -1,0 +1,25 @@
+{
+  "n_fountains": 5,
+  "n_pumps": 3,
+  "total_population": 1031,
+  "served_population": 341,
+  "coverage_rate": 0.33074684772065954,
+  "total_demand_l_day": 17752.0,
+  "served_demand_l_day": 5842.0,
+  "pipe_length_m_estimate": 5000.0,
+  "pipe_cost_eur": 80000.0,
+  "fountains_cost_eur": 4000.0,
+  "pumps_cost_eur": 960.0,
+  "capex_eur": 84960.0,
+  "contingency_eur": 8496.0,
+  "annual_opex_eur": 3600,
+  "twenty_year_opex_eur": 72000,
+  "renewals_eur": 4500,
+  "lifecycle_cost_eur": 169956.0,
+  "constraints": {
+    "budget_ok": true,
+    "target_buffer_ok": true,
+    "water_limit_ok": true,
+    "coverage_rate": 0.33074684772065954
+  }
+}

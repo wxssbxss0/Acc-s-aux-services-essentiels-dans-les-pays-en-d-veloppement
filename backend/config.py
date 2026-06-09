@@ -1,0 +1,37 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
+CLEAN_DATA_DIR = PROJECT_ROOT / "data" / "clean"
+RESULTS_DIR = PROJECT_ROOT / "results"
+
+MAP_XLSX = RAW_DATA_DIR / "Map_village_20241227.xlsx"
+COST_XLSX = RAW_DATA_DIR / "Solution1_Hydraulique_Glossaire.xlsx"
+
+# Project constraints
+MAX_BUDGET_EUR = 220_000
+TARGET_BUDGET_EUR = 200_000
+MAX_DAILY_WATER_M3 = 37
+MAX_DAILY_WATER_L = MAX_DAILY_WATER_M3 * 1000
+
+# Accessibility
+MAX_WALKING_DISTANCE_M = 500
+
+# Reservoir / hydraulics
+RESERVOIR_TERRAIN_ALTITUDE_M = 368
+TANK_BASE_ABOVE_GROUND_M = 5
+RESERVOIR_HYDRAULIC_LEVEL_M = RESERVOIR_TERRAIN_ALTITUDE_M + TANK_BASE_ABOVE_GROUND_M
+
+# Simplified service assumptions
+MIN_SERVICE_HEAD_M = 2
+DEFAULT_HEAD_LOSS_M = 2
+
+# Lifecycle cost
+CONTINGENCY_RATE = 0.10
+PROJECT_LIFETIME_YEARS = 20
+
+# Uncertainty buffers
+DEMAND_BUFFER = 0.20
+CAPEX_BUFFER = 0.15
+OPEX_BUFFER = 0.20

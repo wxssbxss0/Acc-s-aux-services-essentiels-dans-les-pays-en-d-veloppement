@@ -5,3 +5,30 @@
 	<title>Guinean Village Water Adduction GIS</title>
 	
 	<link
+		rel="stylesheet"
+		href="https://unpkg.com/leaflet/dist/leaflet.css"
+	/>
+
+	<link rel="stylesheet" href="./src/styles.css" />
+</head>
+
+<body>
+	<div id="sidebar">
+		<h1>Water Adduction GIS</h1>
+		<p>Interactive map of the selected Guinean village.</p>
+
+		<button id="zoom-guinea">Zoom to Guinea</button>
+		<button id="zoom-village">Zoom to Village</button>
+		<button id="load-points">Load Village Points</button>
+		<button id="run-gravity">Run Gravity Analysis</button>
+
+		<div id="status"></div>
+	</div>
+
+	<div id="map"></div>
+
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+	<script type="module" src="./src/main.js"></script>
+
+</body>
+</html>
