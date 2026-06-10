@@ -1,0 +1,217 @@
+{
+  "total_population": 1031.0,
+  "served_population": 973.0,
+  "coverage_rate": 0.9437439379243453,
+  "design_lpcd": 20,
+  "segments": [
+    {
+      "from": "RES",
+      "to": "BF2",
+      "length_m": 528.8452404931037,
+      "q_lps": 0.17962962962962964,
+      "dn_mm": 40,
+      "velocity_ms": 0.14294471740660972,
+      "hf_m": 0.4755440270643917,
+      "pressure_m": 11.524455972935609,
+      "prv_needed": false
+    },
+    {
+      "from": "RES",
+      "to": "BF3",
+      "length_m": 1728.147210222854,
+      "q_lps": 0.17407407407407408,
+      "dn_mm": 40,
+      "velocity_ms": 0.13852374676516818,
+      "hf_m": 1.4661364759302336,
+      "pressure_m": 21.533863524069766,
+      "prv_needed": true
+    },
+    {
+      "from": "RES",
+      "to": "BF4",
+      "length_m": 991.3385362189158,
+      "q_lps": 0.1527777777777778,
+      "dn_mm": 40,
+      "velocity_ms": 0.1215766926396423,
+      "hf_m": 0.6604737790755001,
+      "pressure_m": 22.3395262209245,
+      "prv_needed": true
+    },
+    {
+      "from": "RES",
+      "to": "BF5",
+      "length_m": 752.037548159368,
+      "q_lps": 0.39444444444444443,
+      "dn_mm": 50,
+      "velocity_ms": 0.20088890594710343,
+      "hf_m": 0.9790562998248663,
+      "pressure_m": 18.020943700175135,
+      "prv_needed": false
+    },
+    {
+      "from": "BF5",
+      "to": "BF1",
+      "length_m": 555.7256706466443,
+      "q_lps": 0.337037037037037,
+      "dn_mm": 50,
+      "velocity_ms": 0.17165155343837005,
+      "hf_m": 0.5406569436912834,
+      "pressure_m": 8.48028675648385,
+      "prv_needed": false
+    }
+  ],
+  "network_length_m": 4556.094205740886,
+  "n_prv": 2,
+  "pump": {
+    "households": 3,
+    "population": 16.0,
+    "daily_l": 320.0,
+    "hm_m": 15,
+    "q_lps": 0.044444444444444446,
+    "p_hyd_w": 6.54,
+    "p_shaft_w": 11.89090909090909
+  },
+  "costs": {
+    "capex_items": [
+      [
+        "Réseau de conduites posées (DN40/DN50)",
+        133949
+      ],
+      [
+        "5 bornes-fontaines (dalle + 2 robinets + drainage)",
+        13700
+      ],
+      [
+        "Vannes + ventouses + regards béton (forfait)",
+        3500
+      ],
+      [
+        "2 réducteurs de pression PRV DN40",
+        260
+      ],
+      [
+        "Chlorateur gravitaire (sortie réservoir)",
+        500
+      ],
+      [
+        "Pompe solaire 200W + panneau + batterie",
+        600
+      ],
+      [
+        "Conduite DN25 pompe de relevage (200 m)",
+        2000
+      ],
+      [
+        "Études + topographie + supervision chantier",
+        7500
+      ],
+      [
+        "Formation de 3 techniciens locaux",
+        1200
+      ],
+      [
+        "Imprévus (5%)",
+        8160
+      ]
+    ],
+    "capex_subtotal": 163209,
+    "capex_total": 171369,
+    "opex_items": [
+      [
+        "Salaire fontainier / opérateur (90 €/mois)",
+        1080
+      ],
+      [
+        "Chlore et produits de traitement",
+        300
+      ],
+      [
+        "Maintenance préventive",
+        600
+      ],
+      [
+        "Stock de pièces de rechange",
+        500
+      ],
+      [
+        "Provision réhabilitation (à 10 ans)",
+        1500
+      ],
+      [
+        "Analyses qualité eau (2×/an)",
+        150
+      ],
+      [
+        "Remplacement compteurs (amorti)",
+        200
+      ],
+      [
+        "Énergie pompe solaire",
+        0
+      ]
+    ],
+    "opex_total": 4330,
+    "lifecycle": 257969,
+    "cost_per_person": 265.1274409044193
+  },
+  "constraints": {
+    "budget_ok": true,
+    "target_buffer_ok": true,
+    "budget_margin_eur": 48631,
+    "water_limit_ok": true,
+    "design_demand_l_day": 19460.0,
+    "coverage_rate": 0.9437439379243453
+  },
+  "fountains": [
+    {
+      "bf_id": "BF1",
+      "Lon": -11.43300614828814,
+      "Lat": 10.98356325760036,
+      "Altitude": 363.0,
+      "households_covered": 58,
+      "population_covered": 364.0,
+      "dist_res_m": 1307.7631668589722,
+      "gravity": true
+    },
+    {
+      "bf_id": "BF2",
+      "Lon": -11.43862162836726,
+      "Lat": 10.99886624382835,
+      "Altitude": 361.0,
+      "households_covered": 31,
+      "population_covered": 194.0,
+      "dist_res_m": 528.8452404931037,
+      "gravity": true
+    },
+    {
+      "bf_id": "BF3",
+      "Lon": -11.42166474024996,
+      "Lat": 11.00200059840028,
+      "Altitude": 350.0,
+      "households_covered": 31,
+      "population_covered": 188.0,
+      "dist_res_m": 1728.147210222854,
+      "gravity": true
+    },
+    {
+      "bf_id": "BF4",
+      "Lon": -11.44404092468954,
+      "Lat": 10.99125304859309,
+      "Altitude": 350.0,
+      "households_covered": 28,
+      "population_covered": 165.0,
+      "dist_res_m": 991.3385362189158,
+      "gravity": true
+    },
+    {
+      "bf_id": "BF5",
+      "Lon": -11.43419497461162,
+      "Lat": 10.98842284952916,
+      "Altitude": 354.0,
+      "households_covered": 11,
+      "population_covered": 62.0,
+      "dist_res_m": 752.037548159368,
+      "gravity": true
+    }
+  ]
+}

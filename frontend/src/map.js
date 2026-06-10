@@ -1,8 +1,10 @@
-export const GUINEA_CENTER = [9.9456, -10.7081];
-export const MAP_ZOOM = 7;
+// frontend/src/map.js
+
+export const GUINEA_CENTER = [9.9456, -9.6966];
+export const VILLAGE_CENTER = [10.990, -11.435];
 
 export function createMap() {
-  const map = L.map("map").setView([9.9456, -9.6966], 6);
+  const map = L.map("map").setView(GUINEA_CENTER, 7);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
@@ -13,7 +15,7 @@ export function createMap() {
 }
 
 export function zoomToGuinea(map) {
-  map.flyTo([9.9456, -9.6966], 7, {
+  map.flyTo(GUINEA_CENTER, 7, {
     duration: 1.5
   });
 }

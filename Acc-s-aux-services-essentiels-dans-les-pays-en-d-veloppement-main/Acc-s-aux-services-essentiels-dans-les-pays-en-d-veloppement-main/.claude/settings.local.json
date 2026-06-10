@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pandas, openpyxl; print\\('pandas', pandas.__version__\\); print\\('openpyxl', openpyxl.__version__\\)\")",
+      "Bash(python3 -c \"import pandas; print\\('pandas', pandas.__version__\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3)",
+      "Bash(python3 solve_aep.py)",
+      "Bash(python3 main.py)",
+      "Bash(python3 -c 'import sys,json,re; *)",
+      "Read(//Users/khainguyen/Desktop/IE/CentraleSupélec/Cours - CS/Accès aux services essentiels dans les pays en développement/**)",
+      "Bash(ls -la Solution_AEP_reproduced.xlsx)",
+      "Bash(python3 -c \"import pandas as pd; print\\('rows:', len\\(pd.read_excel\\('Solution_AEP_reproduced.xlsx', header=None\\)\\)\\)\")",
+      "Bash(python3 -c \"import pandas as pd; print\\('rows in exported sheet:', len\\(pd.read_excel\\('Solution_AEP_reproduced.xlsx', header=None\\)\\)\\)\")",
+      "Bash(python3 -m py_compile config.py utils.py geo_analysis.py hydraulics.py cost_analysis.py constraints.py excel_report.py main.py)"
+    ]
+  }
+}
