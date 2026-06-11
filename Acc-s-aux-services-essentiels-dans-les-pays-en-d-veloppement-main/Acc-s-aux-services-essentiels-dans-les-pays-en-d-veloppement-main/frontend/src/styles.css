@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  position: absolute;
+  left: 320px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  padding: 20px;
+  background: #111827;
+  color: white;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 14px;
+}

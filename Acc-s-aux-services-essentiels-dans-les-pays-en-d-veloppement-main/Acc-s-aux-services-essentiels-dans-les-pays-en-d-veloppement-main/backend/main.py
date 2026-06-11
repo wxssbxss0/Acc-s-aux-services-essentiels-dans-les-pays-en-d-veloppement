@@ -23,12 +23,13 @@ from config import (
 from geo_analysis import (
     load_village_data, get_households, get_reservoir, greedy_select_fountains,
 )
+
 from hydraulics import build_network, sizing_pump
 from cost_analysis import estimate_costs
 from constraints import summarize_constraints
 from excel_report import build_workbook
 from utils import haversine_m
-
+from map_generation import generate_solution_map
 
 def solve():
     village = load_village_data()
@@ -110,11 +111,22 @@ def main():
     light = {k: v for k, v in solution.items()
              if k not in ("households", "reservoir", "fountains")}
     light["fountains"] = solution["fountains"].to_dict(orient="records")
+
     with open(RESULTS_DIR / "solution_summary.json", "w", encoding="utf-8") as fh:
         json.dump(light, fh, indent=2, ensure_ascii=False, default=str)
 
     out = build_workbook(solution)
     print(f"\nWorkbook généré : {out}")
+
+    map_path = generate_solution_map(
+        households=solution["households"],
+        reservoir=solution["reservoir"],
+        fountains=solution["fountains"],
+        solution_summary=light,
+        output_path=RESULTS_DIR / "solution_map.html",
+    )
+
+    print(f"Carte interactive générée : {map_path}")
 
 
 if __name__ == "__main__":
