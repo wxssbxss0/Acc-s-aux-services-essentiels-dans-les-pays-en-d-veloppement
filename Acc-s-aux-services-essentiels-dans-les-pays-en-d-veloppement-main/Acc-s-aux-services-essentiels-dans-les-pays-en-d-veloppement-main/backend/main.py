@@ -48,7 +48,7 @@ def solve():
     served_population = float(fountains["population_covered"].sum())
 
     # 2) hydraulics
-    segments = build_network(reservoir, fountains)
+    segments, corrective_items = build_network(reservoir, fountains)
     network_length_m = sum(s["length_m"] for s in segments)
     n_prv = sum(1 for s in segments if s["prv_needed"])
 
@@ -56,7 +56,13 @@ def solve():
     pump = sizing_pump(households)
 
     # 4) costs
-    costs = estimate_costs(network_length_m, n_prv, served_population)
+    costs = estimate_costs(
+    network_length_m=network_length_m,
+    n_prv=n_prv,
+    served_population=served_population,
+    segments=segments,
+    corrective_items=corrective_items,
+)
 
     solution = {
         "households": households,
@@ -71,6 +77,13 @@ def solve():
         "n_prv": n_prv,
         "pump": pump,
         "costs": costs,
+        "corrective_items": corrective_items,
+        "hydraulic_quality": {
+        "min_pressure_required_m": 18,
+        "target_pressure_m": 20,
+        "flow_basis": "max(demand peak flow, minimum tap flow)",
+        "service_radius_m": MAX_WALKING_DISTANCE_M,
+        },
     }
     solution["constraints"] = summarize_constraints(solution)
     return solution

@@ -1,20 +1,48 @@
-"""Hydraulic design: design flows, Hazen-Williams pipe sizing, relevage pump."""
+"""Hydraulic design: design flows, Ha`:wqzen-Williams pipe sizing, relevage pump."""
 import math
-
 from config import (
     DESIGN_LPCD, PEAK_HOUR_FACTOR, DISTRIBUTION_HOURS,
     HW_C, COMMERCIAL_DN_MM, MAX_VELOCITY_MS,
     RESERVOIR_HYDRAULIC_LEVEL_M, MIN_PRESSURE_M, PRV_PRESSURE_M,
     PUMP_LIFT_M, PUMP_LOSSES_M, PUMP_HOURS, PUMP_EFFICIENCY, RHO, G,
+    MIN_FOUNTAIN_FLOW_LPS, MIN_SERVICE_PRESSURE_M, TARGET_SERVICE_PRESSURE_M,
+    PIPE_COST_EUR_PER_M, BOOSTER_PUMP_EUR,
 )
 from utils import haversine_m
 
 
 # ----- Flows -------------------------------------------------------------
-def design_flow_lps(population):
-    """Peak design flow (L/s): dotation 20 L/p/j over 12 h with PHF = 2."""
+def design_flow_components(population):
+    """
+    Returns demand-based flow and minimum fountain-service flow.
+
+    We size the fountain using the stricter of:
+    1. demand during peak operating hours
+    2. minimum practical flow from the public taps
+    """
     daily_l = population * DESIGN_LPCD
-    return daily_l / (DISTRIBUTION_HOURS * 3600.0) * PEAK_HOUR_FACTOR
+
+    q_avg_lps = daily_l / 86400.0
+    q_distribution_lps = daily_l / (DISTRIBUTION_HOURS * 3600.0)
+    q_peak_lps = q_distribution_lps * PEAK_HOUR_FACTOR
+
+    # Minimum usable flow from the public fountain taps
+    q_tap_lps = MIN_FOUNTAIN_FLOW_LPS
+
+    q_design_lps = max(q_peak_lps, q_tap_lps)
+
+    return {
+        "daily_l": daily_l,
+        "q_avg_lps": q_avg_lps,
+        "q_distribution_lps": q_distribution_lps,
+        "q_peak_lps": q_peak_lps,
+        "q_tap_lps": q_tap_lps,
+        "q_design_lps": q_design_lps,
+    }
+
+
+def design_flow_lps(population):
+    return design_flow_components(population)["q_design_lps"]
 
 
 # ----- Hazen-Williams ----------------------------------------------------
@@ -37,6 +65,121 @@ def pick_diameter(q_lps):
         if velocity_ms(q_lps, dn) <= MAX_VELOCITY_MS:
             return dn
     return COMMERCIAL_DN_MM[-1]
+
+def classify_pressure(h_final_m):
+    if h_final_m >= TARGET_SERVICE_PRESSURE_M:
+        return "PASS_20"
+    if h_final_m >= MIN_SERVICE_PRESSURE_M:
+        return "PASS_18_MARGINAL"
+    return "FAIL"
+
+def apply_hydraulic_corrections(segments, nodes):
+    """
+    Applies the corrected recommended configuration:
+    - Try larger diameter where friction losses are the problem.
+    - Add booster pump where static head is insufficient.
+    """
+
+    corrective_items = []
+
+    for s in segments:
+        bf = s["to"]
+        if not str(bf).startswith("BF"):
+            continue
+
+        altitude = nodes[bf][2]
+        static_head = RESERVOIR_HYDRAULIC_LEVEL_M - altitude
+
+        h_final = s["pressure_m"]
+        s["h_final_m"] = h_final
+        s["pressure_status"] = classify_pressure(h_final)
+        s["solution_retained"] = "Gravité pure"
+        s["booster_required"] = False
+        s["booster_head_m"] = 0.0
+        s["corrective_cost_eur"] = 0
+
+        if h_final >= TARGET_SERVICE_PRESSURE_M:
+            continue
+
+        # If static head itself is below 18, diameter cannot solve it.
+        # Need a booster pump.
+        if static_head < MIN_SERVICE_PRESSURE_M:
+            booster_head = TARGET_SERVICE_PRESSURE_M - h_final
+            s["solution_retained"] = "Gravité + pompe booster"
+            s["booster_required"] = True
+            s["booster_head_m"] = booster_head
+            s["dn_mm"] = max(s["dn_mm"], 50)
+            s["corrective_cost_eur"] = BOOSTER_PUMP_EUR
+
+            corrective_items.append({
+                "bf": bf,
+                "solution": "Gravité + pompe booster",
+                "diameter": f"DN{s['dn_mm']}",
+                "h_final_m": TARGET_SERVICE_PRESSURE_M,
+                "status_18": "PASS",
+                "status_20": "PASS",
+                "cost_eur": BOOSTER_PUMP_EUR,
+                "justification": f"Charge statique {static_head:.1f} mCE insuffisante — pompe requise",
+            })
+            continue
+
+        # Otherwise, try increasing diameter to reduce friction losses.
+        upgraded = False
+        for dn in COMMERCIAL_DN_MM:
+            if dn <= s["dn_mm"]:
+                continue
+
+            hf_new = hazen_williams_hf(s["length_m"], s["q_lps"], dn)
+            h_new = static_head - hf_new
+
+            if h_new >= MIN_SERVICE_PRESSURE_M:
+                old_dn = s["dn_mm"]
+                s["dn_mm"] = dn
+                s["hf_m"] = hf_new
+                s["velocity_ms"] = velocity_ms(s["q_lps"], dn)
+                s["pressure_m"] = h_new
+                s["h_final_m"] = h_new
+                s["pressure_status"] = classify_pressure(h_new)
+                s["solution_retained"] = "Gravité + diamètre"
+
+                extra = round(
+                    s["length_m"] *
+                    (PIPE_COST_EUR_PER_M[dn] - PIPE_COST_EUR_PER_M.get(old_dn, PIPE_COST_EUR_PER_M[40]))
+                )
+                s["corrective_cost_eur"] = extra
+
+                corrective_items.append({
+                    "bf": bf,
+                    "solution": "Gravité + diamètre",
+                    "diameter": f"DN{dn}",
+                    "h_final_m": h_new,
+                    "status_18": "PASS",
+                    "status_20": "PASS" if h_new >= TARGET_SERVICE_PRESSURE_M else "MARGINAL",
+                    "cost_eur": extra,
+                    "justification": f"DN{old_dn} → DN{dn} pour atteindre {h_new:.1f} mCE",
+                })
+                upgraded = True
+                break
+
+        if not upgraded and s["pressure_m"] < MIN_SERVICE_PRESSURE_M:
+            booster_head = TARGET_SERVICE_PRESSURE_M - s["pressure_m"]
+            s["solution_retained"] = "Gravité + pompe booster"
+            s["booster_required"] = True
+            s["booster_head_m"] = booster_head
+            s["corrective_cost_eur"] = BOOSTER_PUMP_EUR
+
+            corrective_items.append({
+                "bf": bf,
+                "solution": "Gravité + pompe booster",
+                "diameter": f"DN{s['dn_mm']}",
+                "h_final_m": TARGET_SERVICE_PRESSURE_M,
+                "status_18": "PASS",
+                "status_20": "PASS",
+                "cost_eur": BOOSTER_PUMP_EUR,
+                "justification": "Diamètre insuffisant pour garantir 18–20 mCE — booster requis",
+            })
+
+    return segments, corrective_items
 
 
 # ----- Network -----------------------------------------------------------
@@ -98,8 +241,9 @@ def build_network(reservoir, fountains):
         bf = s["to"]
         s["pressure_m"] = RESERVOIR_HYDRAULIC_LEVEL_M - nodes[bf][2] - path_hf(bf)
         s["prv_needed"] = s["pressure_m"] > PRV_PRESSURE_M
-
-    return segments
+    
+    segments, corrective_items = apply_hydraulic_corrections(segments, nodes)
+    return segments, corrective_items
 
 
 # ----- Relevage pump -----------------------------------------------------

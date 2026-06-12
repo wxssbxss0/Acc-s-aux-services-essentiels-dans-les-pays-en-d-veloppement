@@ -8,45 +8,69 @@
       "from": "RES",
       "to": "BF2",
       "length_m": 528.8452404931037,
-      "q_lps": 0.17962962962962964,
-      "dn_mm": 40,
-      "velocity_ms": 0.14294471740660972,
-      "hf_m": 0.4755440270643917,
-      "pressure_m": 11.524455972935609,
-      "prv_needed": false
+      "q_lps": 0.2,
+      "dn_mm": 50,
+      "velocity_ms": 0.15915494309189535,
+      "hf_m": 0.580216766600735,
+      "pressure_m": 11.419783233399265,
+      "prv_needed": false,
+      "h_final_m": 11.419783233399265,
+      "pressure_status": "FAIL",
+      "solution_retained": "Gravité + pompe booster",
+      "booster_required": true,
+      "booster_head_m": 8.580216766600735,
+      "corrective_cost_eur": 1800
     },
     {
       "from": "RES",
       "to": "BF3",
       "length_m": 1728.147210222854,
-      "q_lps": 0.17407407407407408,
+      "q_lps": 0.2,
       "dn_mm": 40,
-      "velocity_ms": 0.13852374676516818,
-      "hf_m": 1.4661364759302336,
-      "pressure_m": 21.533863524069766,
-      "prv_needed": true
+      "velocity_ms": 0.15915494309189535,
+      "hf_m": 1.8960177945265264,
+      "pressure_m": 21.103982205473475,
+      "prv_needed": true,
+      "h_final_m": 21.103982205473475,
+      "pressure_status": "PASS_20",
+      "solution_retained": "Gravité pure",
+      "booster_required": false,
+      "booster_head_m": 0.0,
+      "corrective_cost_eur": 0
     },
     {
       "from": "RES",
       "to": "BF4",
       "length_m": 991.3385362189158,
-      "q_lps": 0.1527777777777778,
+      "q_lps": 0.2,
       "dn_mm": 40,
-      "velocity_ms": 0.1215766926396423,
-      "hf_m": 0.6604737790755001,
-      "pressure_m": 22.3395262209245,
-      "prv_needed": true
+      "velocity_ms": 0.15915494309189535,
+      "hf_m": 1.0876362233218313,
+      "pressure_m": 21.91236377667817,
+      "prv_needed": true,
+      "h_final_m": 21.91236377667817,
+      "pressure_status": "PASS_20",
+      "solution_retained": "Gravité pure",
+      "booster_required": false,
+      "booster_head_m": 0.0,
+      "corrective_cost_eur": 0
     },
     {
       "from": "RES",
       "to": "BF5",
       "length_m": 752.037548159368,
       "q_lps": 0.39444444444444443,
-      "dn_mm": 50,
-      "velocity_ms": 0.20088890594710343,
-      "hf_m": 0.9790562998248663,
-      "pressure_m": 18.020943700175135,
-      "prv_needed": false
+      "dn_mm": 63,
+      "velocity_ms": 0.12653622193695102,
+      "hf_m": 0.31768968317512386,
+      "pressure_m": 18.682310316824875,
+      "prv_needed": false,
+      "h_final_m": 18.682310316824875,
+      "pressure_status": "PASS_18_MARGINAL",
+      "solution_retained": "Gravité + diamètre",
+      "booster_required": false,
+      "booster_head_m": 0.0,
+      "corrective_cost_eur": 4512
     },
     {
       "from": "BF5",
@@ -57,7 +81,13 @@
       "velocity_ms": 0.17165155343837005,
       "hf_m": 0.5406569436912834,
       "pressure_m": 8.48028675648385,
-      "prv_needed": false
+      "prv_needed": false,
+      "h_final_m": 8.48028675648385,
+      "pressure_status": "FAIL",
+      "solution_retained": "Gravité + pompe booster",
+      "booster_required": true,
+      "booster_head_m": 11.51971324351615,
+      "corrective_cost_eur": 1800
     }
   ],
   "network_length_m": 4556.094205740886,
@@ -66,16 +96,16 @@
     "households": 3,
     "population": 16.0,
     "daily_l": 320.0,
-    "hm_m": 15,
+    "hm_m": 28,
     "q_lps": 0.044444444444444446,
-    "p_hyd_w": 6.54,
-    "p_shaft_w": 11.89090909090909
+    "p_hyd_w": 12.208,
+    "p_shaft_w": 22.196363636363635
   },
   "costs": {
     "capex_items": [
       [
-        "Réseau de conduites posées (DN40/DN50)",
-        133949
+        "Réseau de conduites posées, coût par diamètre réel",
+        143237
       ],
       [
         "5 bornes-fontaines (dalle + 2 robinets + drainage)",
@@ -90,11 +120,19 @@
         260
       ],
       [
-        "Chlorateur gravitaire (sortie réservoir)",
+        "Chlorateur gravitaire en sortie de réservoir",
         500
       ],
       [
-        "Pompe solaire 200W + panneau + batterie",
+        "Surcoût augmentation diamètre, par exemple DN40 → DN50",
+        4512
+      ],
+      [
+        "Pompes booster solaires ciblées",
+        3600
+      ],
+      [
+        "Pompe solaire de relevage + panneau + batterie",
         600
       ],
       [
@@ -111,14 +149,15 @@
       ],
       [
         "Imprévus (5%)",
-        8160
+        9030
       ]
     ],
-    "capex_subtotal": 163209,
-    "capex_total": 171369,
+    "capex_subtotal": 180609,
+    "contingency": 9030,
+    "capex_total": 189639,
     "opex_items": [
       [
-        "Salaire fontainier / opérateur (90 €/mois)",
+        "Salaire fontainier / opérateur local (90 €/mois)",
         1080
       ],
       [
@@ -126,7 +165,7 @@
         300
       ],
       [
-        "Maintenance préventive",
+        "Maintenance préventive du réseau",
         600
       ],
       [
@@ -134,30 +173,112 @@
         500
       ],
       [
-        "Provision réhabilitation (à 10 ans)",
+        "Provision réhabilitation lourde à 10 ans",
         1500
       ],
       [
-        "Analyses qualité eau (2×/an)",
+        "Analyses qualité de l’eau (2×/an)",
         150
       ],
       [
-        "Remplacement compteurs (amorti)",
+        "Remplacement / amortissement compteurs",
         200
       ],
       [
-        "Énergie pompe solaire",
+        "Énergie pompe solaire principale",
         0
+      ],
+      [
+        "Maintenance annuelle de 2 pompe(s) booster",
+        100
       ]
     ],
-    "opex_total": 4330,
-    "lifecycle": 257969,
-    "cost_per_person": 265.1274409044193
+    "opex_total": 4430,
+    "lifecycle": 278239,
+    "cost_per_person": 285.9599177800617,
+    "pipe_cost": 143237,
+    "corrective_breakdown": {
+      "diameter_upgrade_total": 4512,
+      "booster_total": 3600,
+      "other_corrective_total": 0,
+      "n_boosters": 2,
+      "corrective_total": 8112
+    },
+    "corrective_items": [
+      {
+        "bf": "BF2",
+        "solution": "Gravité + pompe booster",
+        "diameter": "DN50",
+        "h_final_m": 20,
+        "status_18": "PASS",
+        "status_20": "PASS",
+        "cost_eur": 1800,
+        "justification": "Charge statique 12.0 mCE insuffisante — pompe requise"
+      },
+      {
+        "bf": "BF5",
+        "solution": "Gravité + diamètre",
+        "diameter": "DN63",
+        "h_final_m": 18.682310316824875,
+        "status_18": "PASS",
+        "status_20": "MARGINAL",
+        "cost_eur": 4512,
+        "justification": "DN50 → DN63 pour atteindre 18.7 mCE"
+      },
+      {
+        "bf": "BF1",
+        "solution": "Gravité + pompe booster",
+        "diameter": "DN50",
+        "h_final_m": 20,
+        "status_18": "PASS",
+        "status_20": "PASS",
+        "cost_eur": 1800,
+        "justification": "Charge statique 10.0 mCE insuffisante — pompe requise"
+      }
+    ]
+  },
+  "corrective_items": [
+    {
+      "bf": "BF2",
+      "solution": "Gravité + pompe booster",
+      "diameter": "DN50",
+      "h_final_m": 20,
+      "status_18": "PASS",
+      "status_20": "PASS",
+      "cost_eur": 1800,
+      "justification": "Charge statique 12.0 mCE insuffisante — pompe requise"
+    },
+    {
+      "bf": "BF5",
+      "solution": "Gravité + diamètre",
+      "diameter": "DN63",
+      "h_final_m": 18.682310316824875,
+      "status_18": "PASS",
+      "status_20": "MARGINAL",
+      "cost_eur": 4512,
+      "justification": "DN50 → DN63 pour atteindre 18.7 mCE"
+    },
+    {
+      "bf": "BF1",
+      "solution": "Gravité + pompe booster",
+      "diameter": "DN50",
+      "h_final_m": 20,
+      "status_18": "PASS",
+      "status_20": "PASS",
+      "cost_eur": 1800,
+      "justification": "Charge statique 10.0 mCE insuffisante — pompe requise"
+    }
+  ],
+  "hydraulic_quality": {
+    "min_pressure_required_m": 18,
+    "target_pressure_m": 20,
+    "flow_basis": "max(demand peak flow, minimum tap flow)",
+    "service_radius_m": 500
   },
   "constraints": {
     "budget_ok": true,
     "target_buffer_ok": true,
-    "budget_margin_eur": 48631,
+    "budget_margin_eur": 30361,
     "water_limit_ok": true,
     "design_demand_l_day": 19460.0,
     "coverage_rate": 0.9437439379243453
